@@ -5,14 +5,12 @@
 
 #pragma once
 
-#include <Python.h>
-
 #include "targetver.h"
 
-#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
-// Windows Header Files:
-#include <windows.h>
-#include <string>
+// Headers for CppUnitTest
+#include "CppUnitTest.h"
 
+#include <string>
+#include "Python.h"
 
 // TODO: reference additional headers your program requires here
